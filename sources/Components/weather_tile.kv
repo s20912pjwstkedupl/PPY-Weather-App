@@ -1,0 +1,32 @@
+<WeatherTile>:
+    pos_hint: {"center_x": .5, "center_y": .5}
+    size_hint: None, None
+    size: "350dp", "350dp"
+    overlap: False
+
+    MDSmartTileImage:
+        id: weather_img
+        source: "http://openweathermap.org/img/wn/09d@2x.png"
+        radius: [dp(24), dp(24), 0, 0]
+
+    MDSmartTileOverlayContainer:
+        id: tile_container
+        md_bg_color: 0, 0, 0, .4
+        adaptive_height: True
+        md_bg_color: "#333333"
+        padding: "20dp"
+        spacing: "8dp"
+        height: dp(30)
+        radius: [0, 0, dp(24), dp(24)]
+
+        MDLabel:
+            id: label_date
+            text: ""
+            theme_text_color: "Custom"
+            text_color: "white"
+        MDLabel:
+            id: label_temp
+            text: ""
+            halign: "right"
+            theme_text_color: "Custom"
+            text_color: "white"

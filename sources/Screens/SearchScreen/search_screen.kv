@@ -1,0 +1,33 @@
+<SearchScreenView>
+    MDBoxLayout:
+        orientation: "vertical"
+        padding: dp(20)
+        md_bg_color: app.theme_cls.surfaceColor
+        #md_bg_color: "#ff0000"
+        MDBoxLayout:
+            adaptive_height: True
+            #md_bg_color: "#ffaa55"
+            MDGridLayout:
+                cols: 1
+                spacing: 10
+                MDTextField:
+                    id: search_text_city_name
+                    font_size: 28
+                    MDTextFieldHintText:
+                        text: "Put city name and press search button"
+                        text_color_normal: "#ffffff"
+                MDButton:
+                    font_size: 28
+                    on_press: root.on_search_pressed()
+                    MDButtonText:
+                        text: "Search"
+        MDBoxLayout:
+            padding: dp(10), dp(80)
+            #adaptive_height: True
+            #md_bg_color: "#ffffff"
+            MDScrollView:
+                do_scroll_y: True
+                MDBoxLayout:
+                    id: search_results
+                    adaptive_height: True
+                    orientation: "vertical"
