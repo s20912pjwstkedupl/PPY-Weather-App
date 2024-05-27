@@ -100,7 +100,7 @@ src/
 ```
 
 # License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the MIT License.
 
 ### Thank you for using our weather app! We hope it will be useful for you.
 
