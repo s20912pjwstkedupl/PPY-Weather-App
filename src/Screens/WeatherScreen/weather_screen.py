@@ -1,7 +1,5 @@
 import json
 
-from kivymd.app import MDApp
-from kivymd.uix.button import MDButton, MDButtonText
 from kivymd.uix.screen import MDScreen
 
 from Components.weather_tile import WeatherTile

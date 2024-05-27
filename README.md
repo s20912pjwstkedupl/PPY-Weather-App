@@ -36,6 +36,7 @@ Technology
 * Framework: Kivy
 * UI Library: Kivy MD
 * Weather Forecast API: Open Meteo
+* Geocode API: Open Street Map
 * Target Platforms: Android, iOS
 
 # Features
