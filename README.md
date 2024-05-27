@@ -112,6 +112,10 @@ This project is licensed under the MIT License.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+# Exclamation! 
+The premise of this project was to create an application that works cross-platform on ios and android.
+
+Due to problems with the availability of instructions and documentation and little support from the open-source community, it was not possible to successfully compile the application for mobile systems. The main problem was the use of the development version of the KivyMD library, which was the only one that worked correctly with python3.11, but was thus incompatible with the kivy-ios and kivy-android libraries. Unfortunately as of today I've given up, the MacBook Pro M1 couldn't compile it and I'm waiting for developments in the community. Maybe there will be a magician who can find the cause of the compilation problems.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
