@@ -165,6 +165,6 @@ KivyMD/
 .buildozer/
 
 !buildozer.spec
-!/sources/dist
+!/src/dist
 *.apk
 *.app
