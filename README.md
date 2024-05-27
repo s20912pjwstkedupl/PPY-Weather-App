@@ -67,6 +67,10 @@ cd PPY-Weather-App
 ```
 2. Install dependencies
 ```
+## If you'd like to use venv, run the following two lines:
+python3 -m venv env
+source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 3. Run the application

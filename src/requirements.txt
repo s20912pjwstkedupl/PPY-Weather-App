@@ -2,3 +2,4 @@ Kivy==2.3.0
 Kivy-Garden==0.1.4
 kivy-ios==1.2.1
 https://github.com/kivymd/KivyMD/archive/master.zip
+watchdog
