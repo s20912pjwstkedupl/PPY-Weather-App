@@ -96,6 +96,7 @@ src/
 └── api/                # External API implementation
 ├── kv/                 # .kv files with UI definitions
 └── Screens/            # Application screens files
+└── Components/         # Application reusable molecules
 ```
 
 # License
